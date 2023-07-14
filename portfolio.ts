@@ -152,12 +152,20 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:github-actions',
         },
         {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
+          skillName: 'Mongodb',
+          fontAwesomeClassName: 'logos:mongodb',
+        },
+        {
+          skillName: 'SQL',
+          fontAwesomeClassName: 'logos:mysql',
         },
         {
           skillName: 'Nginx',
           fontAwesomeClassName: 'logos:nginx',
+        },
+        {
+          skillName: 'GitLab',
+          fontAwesomeClassName: 'logos:gitlab',
         },
         {
           skillName: 'Sentry',
@@ -192,22 +200,26 @@ export const educationInfo: EducationType[] = [
     schoolName: 'Arizona State University',
     subHeader: 'Master of Science - MS, Computer Science',
     duration: 'January 2023 - December 2024',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    desc: 'Coursework:',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'CSE 551: Foundations of Algorithms',
+      'CSE 564: Software Design',
+      'CSE 578: Data Visualization',
+      'CSE 579: Knowledge Representation'
     ],
   },
   {
     schoolName: 'Addis Ababa University',
     subHeader: `Bachelor's Degree, Software Engineering`,
     duration: 'October 2015 - December 2020',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    desc: 'Coursework:',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Data Structures and Algorithms',
+      'Object-Oriented Programming',
+      'Web Programming',
+      'Mobile Development',
+      'Discrete Mathematics',
+      'IT Security'
     ],
   }
 ];
