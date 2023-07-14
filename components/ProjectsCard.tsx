@@ -11,13 +11,14 @@ const ProjectsCard = ({ name, desc, github, link, img }: ProjectType) => {
           <CardBody>
           <div
               > <img style={{
+                objectFit: 'cover',
                 left: 0,
                 right: 0,
                 top: '7rem',
                 marginLeft: 'auto',
                 marginRight: 'auto',
-                width: '28rem',
-                height: '16rem',
+                width: '100%',
+                height: '100%',
                 borderRadius: '3%',
                   }} src={img} alt=''></img> </div>
             <div className="d-flex px-3 mt-4">

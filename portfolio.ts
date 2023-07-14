@@ -30,7 +30,7 @@ export const contact = {};
 export const socialLinks: SocialLinksType = {
   linkedin: 'https://www.linkedin.com/in/robel-abdissa/',
   github: 'https://github.com/robeleph',
-  gmail: 'ephraimrobel15@gmail.com'
+  gmail: 'mailto:ephraimrobel15@gmail.com'
 };
 
 export const skillsSection: SkillsSectionType = {

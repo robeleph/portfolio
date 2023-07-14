@@ -92,14 +92,14 @@ const SocialLinks = () => {
       {socialLinks.gmail && (
         <Button
           className="btn-icon-only rounded-circle"
-          color="twitter"
+          color="google-plus"
           href={socialLinks.gmail}
           target="_blank"
           rel="noopener"
           aria-label="Gmail"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-google-gmail" />
+            <i className="fa fa-facebook" />
           </span>
         </Button>
       )}
