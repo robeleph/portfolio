@@ -192,28 +192,28 @@ export const experience: ExperienceType[] = [
   {
     role: 'Senior Frontend Engineer',
     company: 'Luna',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/luna.png',
     date: 'May 2022 – Dec 2022',
     desc: '• Built an in-app messaging platform with delivery receipts, offline messaging, and analytics using sendbird chat SDK.\n • Shipped an automatic thumbnail generation feature utilizing OpenGraph API, reducing image rendering latency by 50%.\n • Converted frontend monolith design to modularized, well-defined, and reusable Vue.js components achieving a 30% increase in performance on Google Lighthouse.',
   },
   {
     role: 'Software Engineer',
     company: 'JSI | John Snow Inc.',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/jsi.png',
     date: 'Jan 2022 – Mar 2022',
     desc: '• Developed a Vue.js application for the Ministry of Health of Ethiopia for medical licensing, improving data accuracy by 60%, and ensured 100% compliance with regulatory standards. • Deployed versions of the web app on Amazon Web Services, reducing paperwork by 85%. • Modeled and visualized a data visualization dashboard with Kibana of the ELK application stack.'
   },
   {
     role: 'Freelance Software Engineer',
     company: 'SamVision Specialized Eye Clinic',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
+    companyLogo: '/img/icons/common/samvision.png',
     date: 'Oct 2019 - Mar 2020',
     desc: '• Built a single-page application with component-based architecture, utilizing Angular 6 and TypeScript. • Implemented RESTful backend APIs with 50+ endpoints using Express.js, and MongoDB, securing API endpoints with role-based authentication and JWT(JSON Web Token).',
   },
   {
     role: 'Software Engineer Intern',
     company: 'JSI | John Snow Inc.',
-    companyLogo: '/img/icons/common/wapidu.jpg',
+    companyLogo: '/img/icons/common/jsi.png',
     date: 'Mar 2019 - Sept 2019',
     desc: '• Collaborated with a front-end team to design, create, and deliver a component-based, single-page, web application for a pharmaceutical supply agency in under three months. • Resolved code bugs by conducting unit tests with the Jasmine testing framework on a codebase of 25000+ lines.',
   },
@@ -268,8 +268,8 @@ export const seoData: SEODataType = {
   keywords: [
     'Robel',
     'Robel Abdissa',
-    '@1hanzla100',
-    '1hanzla100',
+    '@robeleph',
+    'robeleph',
     'Portfolio',
     'Robel Portfolio ',
     'Robel Abdissa Portfolio',
