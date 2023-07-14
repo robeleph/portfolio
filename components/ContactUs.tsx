@@ -39,9 +39,6 @@ export const ContactUs = () => {
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log('submitting');
-
-    console.log(form.current);
 
     const emailJsServiceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
 

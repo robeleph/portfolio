@@ -1,3 +1,4 @@
+import { DangerousChangeType } from 'graphql';
 import emoji from 'react-easy-emoji';
 import {
   EducationType,
@@ -15,9 +16,9 @@ export const greetings: GreetingsType = {
   name: 'Robel Ephraim Abdissa',
   title: "Hi all, I'm Robel",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I am a motivated Master of Computer Science student at Arizona State University with a passion for software engineering and a proven track record of success. With several years of experience as a software engineer, I have developed strong skills in both front-end and back-end development, as well as expertise in software engineering best practices. Throughout my professional journey, I have demonstrated my ability to apply my technical skills to solve complex problems and deliver high-quality software solutions. I am adept at collaborating with cross-functional teams and thrive in dynamic environments where I can contribute to the full software development lifecycle.",
   resumeLink:
-    'https://docs.google.com/document/d/1FA7hb9TVcFDAIo4hXb9FnJ-vh1t-IfZ8/edit#heading=h.gjdgxs',
+    'https://docs.google.com/document/d/1FA7hb9TVcFDAIo4hXb9FnJ-vh1t-IfZ8/edit?usp=sharing&ouid=108565244285939175953&rtpof=true&sd=true',
 };
 
 export const openSource = {
@@ -34,17 +35,17 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'A FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   data: [
     {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json',
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js, Angular, and Vue.js'
         ),
         emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Building RESTful APIs in Django, Spring, and Express.js Framework'),
       ],
       softwareSkills: [
         {
@@ -76,8 +77,16 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-light-next',
         },
         {
+          skillName: 'Angular',
+          fontAwesomeClassName: 'vscode-icons:file-type-angular',
+        },
+        {
           skillName: 'Python',
           fontAwesomeClassName: 'logos:python',
+        },
+        {
+          skillName: 'Nodejs',
+          fontAwesomeClassName: 'vscode-icons:file-type-node',
         },
         {
           skillName: 'Django',
@@ -181,8 +190,8 @@ export const SkillBars: SkillBarsType[] = [
 export const educationInfo: EducationType[] = [
   {
     schoolName: 'Arizona State University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'December 2023 - December 2024',
+    subHeader: 'Master of Science - MS, Computer Science',
+    duration: 'January 2023 - December 2024',
     desc: 'Participated in the research of XXX and published 3 papers.',
     grade: 'Grade A',
     descBullets: [
@@ -192,7 +201,7 @@ export const educationInfo: EducationType[] = [
   },
   {
     schoolName: 'Addis Ababa University',
-    subHeader: 'Bachelor of Software Engineering',
+    subHeader: `Bachelor's Degree, Software Engineering`,
     duration: 'October 2015 - December 2020',
     desc: 'Participated in the research of XXX and published 3 papers.',
     grade: 'Grade A',
@@ -209,28 +218,46 @@ export const experience: ExperienceType[] = [
     company: 'Luna',
     companyLogo: '/img/icons/common/luna.png',
     date: 'May 2022 – Dec 2022',
-    desc: '• Built an in-app messaging platform with delivery receipts, offline messaging, and analytics using sendbird chat SDK.\n • Shipped an automatic thumbnail generation feature utilizing OpenGraph API, reducing image rendering latency by 50%.\n • Converted frontend monolith design to modularized, well-defined, and reusable Vue.js components achieving a 30% increase in performance on Google Lighthouse.',
+    desc: '',
+    descBullets: [
+      'Built an in-app messaging platform with delivery receipts, offline messaging, and analytics using sendbird chat SDK.',
+      'Shipped an automatic thumbnail generation feature utilizing OpenGraph API, reducing image rendering latency by 50%',
+      'Converted frontend monolith design to modularized, well-defined, and reusable Vue.js components achieving a 30% increase in performance on Google Lighthouse.',
+    ],
   },
   {
     role: 'Software Engineer',
     company: 'JSI | John Snow Inc.',
     companyLogo: '/img/icons/common/jsi.png',
     date: 'Jan 2022 – Mar 2022',
-    desc: '• Developed a Vue.js application for the Ministry of Health of Ethiopia for medical licensing, improving data accuracy by 60%, and ensured 100% compliance with regulatory standards. • Deployed versions of the web app on Amazon Web Services, reducing paperwork by 85%. • Modeled and visualized a data visualization dashboard with Kibana of the ELK application stack.'
+    desc: '',
+    descBullets: [
+      'Developed a Vue.js application for the Ministry of Health of Ethiopia for medical licensing, improving data accuracy by 60%, and ensured 100% compliance with regulatory standards.',
+      'Deployed versions of the web app on Amazon Web Services, reducing paperwork by 85%.',
+      'Modeled and visualized a data visualization dashboard with Kibana of the ELK application stack.'
+    ],
   },
   {
     role: 'Freelance Software Engineer',
     company: 'SamVision Specialized Eye Clinic',
     companyLogo: '/img/icons/common/samvision.png',
     date: 'Oct 2019 - Mar 2020',
-    desc: '• Built a single-page application with component-based architecture, utilizing Angular 6 and TypeScript. • Implemented RESTful backend APIs with 50+ endpoints using Express.js, and MongoDB, securing API endpoints with role-based authentication and JWT(JSON Web Token).',
+    desc: '',
+    descBullets: [
+      'Built a single-page application with component-based architecture, utilizing Angular 6 and TypeScript.',
+      'Implemented RESTful backend APIs with 50+ endpoints using Express.js, and MongoDB, securing API endpoints with role-based authentication and JWT(JSON Web Token).'
+    ]
   },
   {
     role: 'Software Engineer Intern',
     company: 'JSI | John Snow Inc.',
     companyLogo: '/img/icons/common/jsi.png',
     date: 'Mar 2019 - Sept 2019',
-    desc: '• Collaborated with a front-end team to design, create, and deliver a component-based, single-page, web application for a pharmaceutical supply agency in under three months. • Resolved code bugs by conducting unit tests with the Jasmine testing framework on a codebase of 25000+ lines.',
+    desc: '',
+    descBullets: [
+      'Collaborated with a front-end team to design, create, and deliver a component-based, single-page, web application for a pharmaceutical supply agency in under three months.',
+      'Resolved code bugs by conducting unit tests with the Jasmine testing framework on a codebase of 25000+ lines.'
+    ]
   },
 ];
 
@@ -243,21 +270,21 @@ export const projects: ProjectType[] = [
   },
   {
     name: 'HRIS',
-    desc: 'HRIS landing page.',
+    desc: 'The primary role of this module is to manage workers employed through the FMOH at the ministry, regional, hospital, zonal, and woreda level.',
     github: 'https://github.com/robeleph/hris',
     link: 'https://hris-rho.vercel.app/',
     img: '/img/icons/common/hris.png',
   },
   {
     name: 'HRL',
-    desc: 'Get hands-on experience in technical skills with Technota',
+    desc: 'Everything you need for managing your medical licenses in Ethiopia. Create, manage, and follow up on your license request online.',
     github: 'https://github.com/robeleph/pplrh',
     img: '/img/icons/common/hrl.png',
     link: 'https://hrl.moh.gov.et/'
   },
   {
     name: 'Nuxt Movies',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
+    desc: 'A convenient platform that allows users to search for recently released movies and find local cinemas where they are currently being shown.',
     github: 'https://github.com/robeleph/nuxt-movies.git',
     img: '/img/icons/common/nuxtmovies.png',
 
@@ -267,11 +294,13 @@ export const projects: ProjectType[] = [
 export const feedbacks: FeedbackType[] = [
   {
     name: 'James Roycroft-Davis',
+    title: 'Former CEO at Luna',
     feedback:
       'Robel is a first class front end engineer. He communicates brilliantly and his code is very strong. He’s a team player and was always diligent in his processes.',
   },
   {
     name: 'Andrew Robinson',
+    title: 'Co-founder and CEO at Luna',
     feedback:
       'Robel has been an outstanding team player during his time with us. He also demonstrated his ability to work independently and taking on ownership and responsibility for his work. His ability to understand what is needed and deliver on time, made him a very valued team member. He is open and honest, and responds well to feedback, always pushing himself to fulfil the requirements with care and consistency. Without doubt, Robel is a reliable senior frontend JavaScript developer, and someone I would definitely recommend and would have no hesitation to engage with on future projects.',
   },

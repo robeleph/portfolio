@@ -13853,6 +13853,9 @@ a.text-success:focus {
 .text-info {
 	color: #11cdef !important;
 }
+.text-info-light {
+	color: #70e1f5 !important;
+}
 
 a.text-info:hover,
 a.text-info:focus {
