@@ -12,7 +12,7 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Robel Abdissa',
+  name: 'Robel Ephraim Abdissa',
   title: "Hi all, I'm Robel",
   description:
     "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
@@ -28,7 +28,8 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   linkedin: 'https://www.linkedin.com/in/robel-abdissa/',
-  github: 'https://github.com/robeleph'
+  github: 'https://github.com/robeleph',
+  gmail: 'ephraimrobel15@gmail.com'
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -37,7 +38,7 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/fullstack.json',
       skills: [
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
@@ -63,6 +64,14 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
         },
         {
+          skillName: 'Vuejs',
+          fontAwesomeClassName: 'vscode-icons:file-type-vue',
+        },
+        {
+          skillName: 'Nuxt',
+          fontAwesomeClassName: 'vscode-icons:file-type-nuxt',
+        },
+        {
           skillName: 'Nextjs',
           fontAwesomeClassName: 'vscode-icons:file-type-light-next',
         },
@@ -74,7 +83,10 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Django',
           fontAwesomeClassName: 'vscode-icons:file-type-django',
         },
-
+        {
+          skillName: 'Java',
+          fontAwesomeClassName: 'vscode-icons:file-type-java',
+        },
         {
           skillName: 'Redux',
           fontAwesomeClassName: 'logos:redux',
@@ -91,7 +103,7 @@ export const skillsSection: SkillsSectionType = {
     },
     {
       title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/cloudinfra.json',
       skills: [
         emoji('⚡ Experience of working on multiple cloud platforms'),
         emoji(
@@ -102,7 +114,6 @@ export const skillsSection: SkillsSectionType = {
         ),
       ],
       softwareSkills: [
-        // ? Check README To get icon details
         {
           skillName: 'AWS',
           fontAwesomeClassName: 'logos:aws',
@@ -161,6 +172,10 @@ export const SkillBars: SkillBarsType[] = [
     Stack: 'Programming',
     progressPercentage: '100',
   },
+  {
+    Stack: 'DevOps',
+    progressPercentage: '100',
+  }
 ];
 
 export const educationInfo: EducationType[] = [
@@ -221,25 +236,31 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Getwelp',
+    desc: 'An all-in-one new cloud-based platform specifically designed and built for behaviour specialists and dog trainers to help run their businesses more smoothly.',
+    link: 'https://app.getwelp.com/',
+    img: '/img/icons/common/getwelpthumbnail.jpeg',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'HRIS',
+    desc: 'HRIS landing page.',
+    github: 'https://github.com/robeleph/hris',
+    link: 'https://hris-rho.vercel.app/',
+    img: '/img/icons/common/hris.png',
   },
   {
-    name: 'Technota (Forum)',
+    name: 'HRL',
     desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    github: 'https://github.com/robeleph/pplrh',
+    img: '/img/icons/common/hrl.png',
+    link: 'https://hrl.moh.gov.et/'
   },
   {
-    name: 'Shopaza (Ecommerce)',
+    name: 'Nuxt Movies',
     desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    github: 'https://github.com/robeleph/nuxt-movies.git',
+    img: '/img/icons/common/nuxtmovies.png',
+
   },
 ];
 
