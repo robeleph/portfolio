@@ -13,7 +13,7 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Robel Ephraim Abdissa',
+  name: 'Robel E. Abdissa',
   title: "Hi all, I'm Robel",
   description:
     "I am a motivated Master of Computer Science student at Arizona State University with a passion for software engineering and a proven track record of success. With several years of experience as a software engineer, I have developed strong skills in both front-end and back-end development, as well as expertise in software engineering best practices. Throughout my professional journey, I have demonstrated my ability to apply my technical skills to solve complex problems and deliver high-quality software solutions. I am adept at collaborating with cross-functional teams and thrive in dynamic environments where I can contribute to the full software development lifecycle.",
@@ -30,7 +30,6 @@ export const contact = {};
 export const socialLinks: SocialLinksType = {
   linkedin: 'https://www.linkedin.com/in/robel-abdissa/',
   github: 'https://github.com/robeleph',
-  gmail: 'mailto:ephraimrobel15@gmail.com'
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -241,7 +240,7 @@ export const experience: ExperienceType[] = [
     role: 'Software Engineer',
     company: 'JSI | John Snow Inc.',
     companyLogo: '/img/icons/common/jsi.png',
-    date: 'Jan 2022 – Mar 2022',
+    date: 'Feb 2021 – Apr 2022',
     desc: '',
     descBullets: [
       'Developed a Vue.js application for the Ministry of Health of Ethiopia for medical licensing, improving data accuracy by 60%, and ensured 100% compliance with regulatory standards.',
