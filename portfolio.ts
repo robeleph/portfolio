@@ -276,8 +276,8 @@ export const projects: ProjectType[] = [
   {
     name: 'Getwelp',
     desc: 'An all-in-one new cloud-based platform specifically designed and built for behaviour specialists and dog trainers to help run their businesses more smoothly.',
-    link: 'https://app.getwelp.com/',
-    img: '/img/icons/common/getwelpthumbnail.jpeg',
+    link: 'https://getwelp.com/',
+    img: '/img/icons/common/getwelp.png',
   },
   {
     name: 'HRIS',
