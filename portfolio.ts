@@ -201,10 +201,13 @@ export const educationInfo: EducationType[] = [
     duration: 'January 2023 - December 2024',
     desc: 'Coursework:',
     descBullets: [
+      'CSE 511: Data Processing at Scale',
+      'CSE 543: Information Assurance and Security',
       'CSE 551: Foundations of Algorithms',
       'CSE 564: Software Design',
       'CSE 578: Data Visualization',
-      'CSE 579: Knowledge Representation'
+      'CSE 579: Knowledge Representation',
+
     ],
   },
   {
@@ -224,6 +227,16 @@ export const educationInfo: EducationType[] = [
 ];
 
 export const experience: ExperienceType[] = [
+  {
+    role: 'Graduate Services Assistant',
+    company: 'Arizona State University',
+    companyLogo: '/img/icons/common/asu_logo.png',
+    date: 'August 2023 – Present',
+    desc: '',
+    descBullets: [
+      'Delivered CSE 551: Foundations of Algorithms course to 200+ students, serving as a grader, facilitating course logistics, proctoring exams, and ensuring effective communication.'
+    ],
+  },
   {
     role: 'Senior Frontend Engineer',
     company: 'Luna',
